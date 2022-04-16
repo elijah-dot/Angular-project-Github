@@ -1,6 +1,16 @@
-/* .lone{
-    background-image: url(../../../assets/images/twol.jpg);
-    height: 100vh;
+ .lone {
+  width: 100vw;
+  height: 70vh;
+  position: absolute;
+  background-image: linear-gradient(to left top,rgb(76, 76, 247),purple);
+
+} 
+.overlay{
+    position:relative;
     width: 100vw;
-    background-size: cover;
-} */
+    
+    height:70vh;
+    
+    
+
+}
