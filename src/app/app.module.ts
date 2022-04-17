@@ -12,6 +12,10 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { FormsModule } from '@angular/forms';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { Routes } from '@angular/router';
+
+
+const routes: Routes = [{ path: '**', component: LandingpageComponent }]
 
 @NgModule({
   declarations: [AppComponent, NavbarComponent, HighlightDirective, DisplayComponent, LandingpageComponent, AboutComponent, ContactComponent, PagenotfoundComponent],
