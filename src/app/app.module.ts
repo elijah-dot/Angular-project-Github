@@ -6,9 +6,11 @@ import { AppComponent } from './app.component';
 
 import { NavbarComponent } from './navbar/navbar.component';
 import { HighlightDirective } from './directive/highlight.directive';
+import { DisplayComponent } from './display/display.component';
+import { LandingpageComponent } from './landingpage/landingpage.component';
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, HighlightDirective],
+  declarations: [AppComponent, NavbarComponent, HighlightDirective, DisplayComponent, LandingpageComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
