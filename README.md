@@ -20,6 +20,8 @@
 
 ![project101!](./src/assets/images/project101.png)
 
+![project101!](./src/assets/images/projectpage.png)
+
 ## Istallation
 
 <ul>
