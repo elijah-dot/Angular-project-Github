@@ -11,9 +11,10 @@ import { LandingpageComponent } from './landingpage/landingpage.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { FormsModule } from '@angular/forms';
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, HighlightDirective, DisplayComponent, LandingpageComponent, AboutComponent, ContactComponent],
+  declarations: [AppComponent, NavbarComponent, HighlightDirective, DisplayComponent, LandingpageComponent, AboutComponent, ContactComponent, PagenotfoundComponent],
   imports: [BrowserModule, AppRoutingModule,FormsModule,HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
