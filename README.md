@@ -1,8 +1,8 @@
-# Delani studios
+# LIONGIT
 
 ### By Elijah Mwangi Wangu.
 
-## it is a website that gives people the oppotunity to do programming together in a group.
+## it is a website allows you to search for you github account and repositories.
 
 ## Table of content.
 
@@ -15,8 +15,7 @@
 
 ## Description
 
-<p>it is a website that gives programmers the oppotunity to know one another and work together in creating websites while exchanging ideas</p>
-
+<p>it is a website allows you to search for you github account and repositories making work easier for the user.</p>
 
 ![project101!](./src/assets/images/project101.png)
 
@@ -26,7 +25,7 @@
 
 <ul>
    <li>go to a location of your liking in your file system choose a root folder and clone this repository <br>
-   https://github.com/elijah-dot/Delani-Sudio
+   https://github.com/elijah-dot/Angular-project-Github
    </li>
    <li>open a code editor.any will work.</li>
 </ul>
@@ -39,7 +38,7 @@
 
 ### Installation process
 
-[Go back to the top](#akan-names)
+[Go back to the top](#LIONGIT)
 
 ## Technology used
 
@@ -47,7 +46,7 @@
 <li>Html - which was used to build the structure of the pages</li>
 <li>css- which was used to style the pages </li>
 <li>bootstrap-which was used to make pages and images responsive</li>
-<li>javascript-which was used to make the form interractive and also the pages and icons.</li>
+<li>Angular-which was used to make the all the html components an also to style as framework.</li>
 
 </ul>
 
@@ -56,11 +55,9 @@
 <ol>
 <li>displays a landingpage with a quick description of the website </li>
 <li>Displays form for entering name,email and text <ul>
-<li>INPUT:"Users email Entered"</li>
-<li>INPUT::"User name Entered</li>
-<li>INPUT::"User massege Entered</li>
+<li>INPUT:"Users username in git hub"</li>
 
-<li>OUTPUT:"Displays user message has been received.</li>
+<li>OUTPUT:"Displays user repositories and account.</li>
 
 </ul> </li>
 </ol>
@@ -79,12 +76,12 @@
 
 ## licence
 
-copyright (c) [2019] [https://github.com/elijah-dot/Delani-Sudio/blob/master/LICENSE]
+copyright (c) [2019] [https://github.com/elijah-dot/Angular-project-Github/blob/master/LICENSE]
 
 ## authors info
 
 linked - [Elijah Mwangi Wangu]
-(https://github.com/elijah-dot/Delani-Sudio)
+(https://github.com/elijah-dot/Angular-project-Github)
 
 email - [Elijah Mwangi Wangu]
 (elijahwangu91@gmail.com
