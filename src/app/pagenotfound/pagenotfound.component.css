@@ -1,6 +1,23 @@
 .error{
-    /* background-image: url(../../assets/images/error.jpeg);
+    background-image: url(../../assets/images/error.jpeg);
     height: 90vh;
     width: 100vw;
-    background-size: cover; */
+    background-size: cover;
+    position: relative; 
+}
+.top2{
+    height: 90vh;
+    width: 100vw;
+    position: absolute;
+    text-align: center;
+
+}
+.four{
+    margin-top: 200px;
+    font-size: 50px;
+    color: aliceblue;
+}
+.four h1,h3{
+    font-size: 80px;
+
 }
