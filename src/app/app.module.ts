@@ -13,12 +13,13 @@ import { ContactComponent } from './contact/contact.component';
 import { FormsModule } from '@angular/forms';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { Routes } from '@angular/router';
+import { DatePipe } from './date.pipe';
 
 
 const routes: Routes = [{ path: '**', component: LandingpageComponent }]
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, HighlightDirective, DisplayComponent, LandingpageComponent, AboutComponent, ContactComponent, PagenotfoundComponent],
+  declarations: [AppComponent, NavbarComponent, HighlightDirective, DisplayComponent, LandingpageComponent, AboutComponent, ContactComponent, PagenotfoundComponent, DatePipe],
   imports: [BrowserModule, AppRoutingModule,FormsModule,HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],

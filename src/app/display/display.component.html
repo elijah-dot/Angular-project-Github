@@ -25,11 +25,12 @@
     <h3>Repositories</h3>
     <div class="container" style="text-align: center">
       <div class="row">
-        <div  class="col-md-6 buzz" *ngFor="let myrepo of repo">
+        <div  class="col-md-6 buzz" *ngFor="let myrepo of repo" appHighlight>
           <div class="card mt-3">
-            <p appHighlight>{{ myrepo.name }}</p>
+            <p>{{ myrepo.name }}</p>
             <p>{{ myrepo.description }}</p>
             <p>{{ myrepo.language }}</p>
+            <p>{{ myrepo|<details>hi there</details> }}</p>
             <a href="{{ myrepo.html_url }}"
               ><button class="btn btn-success">search repo</button></a
             >
