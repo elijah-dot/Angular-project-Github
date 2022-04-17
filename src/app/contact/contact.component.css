@@ -9,5 +9,18 @@ table{
     font-size: 20px;
 }
 .top{
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.text2{
+    color: azure;
+    text-align: center;
+    margin-top: 40px;
+    border: solid 2px white;
+    height: 200px;
+    width: 700px;
+    font-size: 20px;
+
 }
