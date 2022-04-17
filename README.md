@@ -18,7 +18,7 @@
 <p>it is a website that gives programmers the oppotunity to know one another and work together in creating websites while exchanging ideas</p>
 
 
-![project101!](../grip2/src/assets/images/project101.png)
+![project101!](./src/assets/images/project101.png)
 
 ## Istallation
 
