@@ -1,0 +1,27 @@
+.display {
+  width: 100vw;
+  position: absolute;
+  background-image: linear-gradient(to left top, rgb(76, 76, 247), purple);
+}
+.imageone {
+  border-radius: 400px;
+  margin-left: 800px;
+  margin-top: 70px;
+}
+.form-group {
+  padding-left: 680px;
+  padding-right: 680px;
+  display: flex;
+}
+.user p {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+h3 {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 40px;
+  text-decoration: underline white;
+  color: white;
+}
