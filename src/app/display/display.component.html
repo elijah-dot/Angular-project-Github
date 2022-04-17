@@ -1,1 +1,42 @@
-<p>display works!</p>
+<div class="display">
+  
+    <div class="user" *ngIf="user">
+      <img class="imageone" src="{{ user.avatar_url }}" alt="" height="200px" width="200px" />
+      <p>{{ user.name }}</p>
+      <p>folowers:{{ user.followers }}</p>
+      <p>folowing:{{ user.following }}</p>
+      <p>Bio:{{ user.bio }}</p>
+    </div>
+    <form>
+      <div class="form-group">
+        <input
+          name="userName"
+          [(ngModel)]="username"
+          type="text"
+          class="form-control friend"
+        />
+        <button class="btn btn-success" (click)="findUser()" type="submit">
+          click
+        </button>
+      </div>
+  
+      
+    </form>
+    <h3>Repositories</h3>
+    <div class="container" style="text-align: center">
+      <div class="row">
+        <div  class="col-md-6 buzz" *ngFor="let myrepo of repo">
+          <div class="card mt-3">
+            <p appHighlight>{{ myrepo.name }}</p>
+            <p>{{ myrepo.description }}</p>
+            <p>{{ myrepo.language }}</p>
+            <a href="{{ myrepo.html_url }}"
+              ><button class="btn btn-success">search repo</button></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    
+  </div>
