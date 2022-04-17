@@ -8,9 +8,10 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HighlightDirective } from './directive/highlight.directive';
 import { DisplayComponent } from './display/display.component';
 import { LandingpageComponent } from './landingpage/landingpage.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, HighlightDirective, DisplayComponent, LandingpageComponent],
+  declarations: [AppComponent, NavbarComponent, HighlightDirective, DisplayComponent, LandingpageComponent, AboutComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
