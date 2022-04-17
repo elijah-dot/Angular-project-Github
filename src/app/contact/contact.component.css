@@ -1,26 +1,36 @@
-.three{
-    width: 100vw;
-    height: 40vh;
-    position: relative;
-    background-image: linear-gradient(to left top, rgb(7, 7, 54), rgb(50, 6, 50));  
+.three {
+  width: 100vw;
+  height: 30vh;
+  position: relative;
+  background-image: linear-gradient(to left top, rgb(7, 7, 54), rgb(50, 6, 50));
 }
-table{
-    color: azure;
-    font-size: 20px;
+table {
+  color: azure;
+  font-size: 20px;
+  
+  margin-left: 120px;
+  margin-right: 120px;
 }
-.top{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.text2 {
+  color: azure;
+  text-align: center;
+  margin-top: 30px;
 
+  height: 250px;
+  width: 700px;
+  font-size: 20px;
 }
-.text2{
-    color: azure;
-    text-align: center;
-    margin-top: 40px;
-    border: solid 2px white;
-    height: 200px;
-    width: 700px;
-    font-size: 20px;
-
+.box1 {
+  display: flex;
+  text-align: center;
+  margin-left: 100px;
+}
+.box1 h4 {
+  margin-top: 30px;
+  font-size: 30px;
 }
