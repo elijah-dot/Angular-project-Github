@@ -1,0 +1,9 @@
+.three{
+    width: 100vw;
+    height: 40vh;
+    position: relative;
+    background-image: linear-gradient(to left top, rgb(7, 7, 54), rgb(50, 6, 50));  
+}
+table{
+    color: azure;
+}
